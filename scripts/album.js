@@ -30,6 +30,20 @@ var albumMarconi = {
     ]
 };
 
+// Another Example Album
+var albumTest = {
+    title: 'Test title',
+    artist: 'Test artist',
+    label: 'Test',
+    year: '2016',
+    albumArtUrl: 'assets/images/album_covers/02.png',
+    songs: [
+        { title: 'One', duration: '10:01' },
+        { title: 'Two', duration: '25:01' },
+        { title: 'Three', duration: '33:21'}
+    ]
+};
+
 var createSongRow = function(songNumber, songName, songLength) {
     var template =
         '<tr class="album-view-song-item">'
